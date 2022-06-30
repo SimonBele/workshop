@@ -1,0 +1,28 @@
+title = "male_150"
+description = "XCAT model"
+method = 1
+
+[mesh]
+size = [ 89, 112, 81,]
+step = [ 0.002, 0.002, 0.002,]
+
+[input]
+frequency = 64000000.0
+tx-channels = 1
+rx-channels = 1
+trx-phase = "noisy\\male_150\\male_150_2.b1map.h5:/alpha-est-MC0"
+
+[output]
+electric-conductivity = "noisy\\male_150\\male_150_2.crept.h5:/sigma"
+
+[parameter]
+volume-tomography = true
+artificial-diffusion = true
+artificial-diffusion-coefficient = 0.001
+
+[parameter.savitzky-golay]
+size = [ 2, 2, 2,]
+shape = 0
+
+[parameter.dirichlet]
+electric-conductivity = 0.5

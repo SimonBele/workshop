@@ -1,0 +1,20 @@
+title = "male_80"
+description = "XCAT model"
+method = 0
+
+[mesh]
+size = [ 90, 113, 82,]
+step = [ 0.002, 0.002, 0.002,]
+
+[input]
+frequency = 64000000.0
+tx-channels = 1
+rx-channels = 1
+trx-phase = "noisy\\male_80\\male_80_2.b1map.h5:/alpha-est-MC0"
+
+[output]
+electric-conductivity = "noisy\\male_80\\male_80_2.hept.h5:/sigma"
+
+[parameter.savitzky-golay]
+size = [ 3, 3, 3,]
+shape = 1

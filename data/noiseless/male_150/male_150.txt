@@ -1,0 +1,41 @@
+0	1.0	0.9	0.7	Air
+1	1.0	0.9	0.7	Blood
+2	1.0	0.9	0.7	Bone Marrow (red)
+3	1.0	0.9	0.7	Brain (Grey Matter)
+4	1.0	0.9	0.7	Brain (White Matter)
+5	1.0	0.9	0.7	Cartilage
+6	1.0	0.9	0.7	Cerebellum
+7	1.0	0.9	0.7	Cerebrospinal Fluid
+8	1.0	0.9	0.7	Commissura Anterior
+9	1.0	0.9	0.7	Dura
+10	1.0	0.9	0.7	Eye (Cornea)
+11	1.0	0.9	0.7	Eye (Lens)
+12	1.0	0.9	0.7	Eye (Retina)
+13	1.0	0.9	0.7	Eye (Sclera)
+14	1.0	0.9	0.7	Eye (Vitreous Humor)
+15	1.0	0.9	0.7	Fat
+16	1.0	0.9	0.7	Heart Lumen
+17	1.0	0.9	0.7	Hippocampus
+18	1.0	0.9	0.7	Hypophysis
+19	1.0	0.9	0.7	Medulla Oblongata
+20	1.0	0.9	0.7	Midbrain
+21	1.0	0.9	0.7	Mucous Membrane
+22	1.0	0.9	0.7	Muscle
+23	1.0	0.9	0.7	Nerve
+24	1.0	0.9	0.7	Pineal Body
+25	1.0	0.9	0.7	Pons
+26	1.0	0.9	0.7	Skull Cortical
+27	1.0	0.9	0.7	Tendon\Ligament
+28	1.0	0.9	0.7	Thalamus
+29	1.0	0.9	0.7	Thyroid Gland
+30	1.0	0.9	0.7	Trachea Lumen
+
+Grid extent (number of cells)
+nx	89
+ny	112
+nz	81
+
+Spatial steps [m]
+dx	2.000000000000e-03
+dy	2.000000000000e-03
+dz	2.000000000000e-03

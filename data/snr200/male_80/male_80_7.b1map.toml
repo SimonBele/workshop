@@ -1,0 +1,33 @@
+title = "male_80"
+method = 3
+
+[mesh]
+size = [ 90, 113, 82,]
+step = [ 0.002, 0.002, 0.002,]
+
+[input]
+body = "noisy\\male_80\\male_80_7.b1map.toml"
+tx-sensitivity = "noisy\\male_80\\male_80_7.h5:/tx-sens"
+tx-phase = "noisy\\male_80\\male_80_7.h5:/tx-phase"
+rx-sensitivity = "noisy\\male_80\\male_80_7.h5:/rx-sens"
+rx-phase = "noisy\\male_80\\male_80_7.h5:/rx-phase"
+
+[body]
+materials = "noisy\\male_80\\male_80_7.h5:/mat"
+proton-density = "noisy\\male_80\\male_80_7.h5:/magnetic-properties/rho"
+longitudinal-relaxation = "noisy\\male_80\\male_80_7.h5:/magnetic-properties/T1"
+transverse-relaxation = "noisy\\male_80\\male_80_7.h5:/magnetic-properties/T2star"
+
+[montecarlo]
+samples = 1
+noise = 0.005
+
+[output]
+alpha-estimate = "noisy\\male_80\\male_80_7.b1map.h5:/alpha-est"
+intermediate-images = "noisy\\male_80\\male_80_7.b1map.h5:/imgs"
+
+[parameter]
+alpha-nominal = 1.5707963267948966
+TR = 30.0
+TE = 0.0
+spoiling = 0.99
